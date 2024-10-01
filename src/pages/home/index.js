@@ -13,7 +13,7 @@ const App = () => {
             <input name="usuario" placeholder="@username"/>
             <button>Buscar</button>
           </div>
-          <div>
+          <div className="perfil">
             <img
               src="https://avatars.githubusercontent.com/u/17552862?v=4"
               className="profile"
@@ -21,8 +21,13 @@ const App = () => {
             />
             <div>
               <h3>Adriano Cruz</h3>
+              <span>@adrianocruzweb</span>
               <p>Descrição</p>
             </div>
+          </div>
+          <hr/>
+          <div>
+            <h4>Repositórios</h4>
           </div>
         </div>
       </div>
